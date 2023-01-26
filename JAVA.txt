@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-nav mx-auto">
+        <a class="navbar-brand" href="#">THE BOOK SERIES</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">TESTMORIALS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">THE AUTHOR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FREE RESOURSES</a>
+            </li>
+            </div>
+          </ul>
+        </div>
+      </nav>  
+  <head>
+    <style>
+       .all{
+        background-color: rgb(165, 163, 163);
+        padding-bottom: 3cm;
+        padding-top: 2cm;
+       }       
+        .flex-container{
+            display:flex;
+            align-items: center;
+justify-content: center;
+        }
+        .image{
+            max-width: 100px;
+            max-height: 100px;
+            padding-right: 12cm;
+            padding-bottom: 10cm;
+        }
+        .text{
+            font-size: 20px;
+         padding-left: 7cm;
+         padding-bottom: 2cm;   
+        }
+        .button{
+            text-align: center;
+        }
+        .last{
+            color: aliceblue;
+            background-color: black;
+            padding-top: 1cm;
+        }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+   <section class="all"> 
+    <h3> <center>
+
+        what do you know about java script</center>
+    </h3><br>
+    <div class="flex-container">
+        <div class="image">
+  <img src="https://static01.helion.com.pl/global/okladki/326x466/tjszak.png">
+        </div>
+  <div class="text">
+   <p><b>dont just drift through java script</b><br><br><b> understant how java script works</b><br><br><b>start your journy through the bubby side of java script</b><br><br><button type="button" class="btn btn-warning"> FIND OUT MORE ABOUT THIS  </button></p>
+</div>
+   </div>
+   </section>
+   <section class="last">
+    <div class="p">
+   <p><center> the first book in the e book series is absolutly free </center></p><br></div>
+   <div class="button">
+   <button type="button" class="btn btn-warning"> FIND OUT MORE ABOUT THIS  </button></div>
+   </section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
